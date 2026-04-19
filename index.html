@@ -2,62 +2,61 @@
 <html lang="pl">
 
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loreal</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style/style.css" />
+      rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
   </head>
 
   <body>
     <div class="es-loreal"
          id="es-loreal">
-      <div class="es-kv">
+      <div class="es-kv"
+           style="background: #fff url('../images/kv-bg-m.png') no-repeat;
+    background-size: contain;">
         <div class="es-kv__container">
           <div class="es-kv__wrapper">
             <div class="es-kv__branding">
               <div class="es-kv__logo">
                 <img class="es-kv__img"
                      src="./images/logo.png"
-                     alt="L'Oréal" />
+                     alt="L'Oréal">
               </div>
               <div class="es-kv__brand">
                 <p class="es-kv__brand-title">
-                  Eskpert wieku
+                  <span class="es-kv__brand-title--bold">Eskpert</span> wieku
                 </p>
                 <span class="es-kv__brand-item-title">
                   twój duet<br>
                   przeciwzmarszczkowy
                 </span>
               </div>
-              <p class="es-kv__brand-title">
+              <p class="es-kv__brand-subtitle">
                 ujędrniona i odżywiona skóra
                 zredukowane zmarszczki
               </p>
             </div>
             <span class="es-kv__title-description">
-              <span class="es-kv__title-description--pink">
-                peptydy + olejek kameliowy
-              </span>
+              peptydy + olejek kameliowy
             </span>
           </div>
           <div class="es-kv__left">
-            <img src="./images/kv-left.png"
-                 alt="Twój czas"
-                 class="es-kv__img">
+            <div class="es-kv__left-inner">
+              <img src="./images/kv-left.png"
+                   alt="Twój czas"
+                   class="es-kv__img">
+              <p class="es-kv__name">grażyna torbicka</p>
+            </div>
             <div class="es-kv__title-group">
               <h3 class="es-kv__title">
-                <span class="es-kv__title es-kv__title--red">
-                  teraz jest<br>
-                  twój czas.
-                </span>
-                <p class="es-kv__subtitle">jesteś tego warta.</p>
-                <p class="es-kv__name">grażyna torbicka</p>
+                teraz jest<br>
+                twój czas.
               </h3>
+              <p class="es-kv__subtitle">jesteś tego warta.</p>
             </div>
           </div>
 
@@ -65,7 +64,7 @@
       </div>
 
       <div class="es-routine">
-        <p class="es-routine__title">
+        <p class="es-routine__title es-title">
           ODKRYJ RUTYNĘ <span class="es-routine__title--bold">EKSPERT WIEKU</span>
         </p>
         <p class="es-routine__subtitle">
@@ -103,6 +102,12 @@
               POTRÓJNA MOC
             </span><br>FORMUŁY
           </p>
+          <ul class="es-power__list">
+            <li class="es-power__list-item">Intensywne odżywienie</li>
+            <li class="es-power__list-item">Widoczne wygładzenie i poprawa struktury skóry</li>
+            <li class="es-power__list-item">Podniesienie owalu twarzy</li>
+          </ul>
+          <p class="es-power__disclaimer">Lekka, nie lepiąca konsystencja</p>
         </div>
         <div class="es-power__right">
           <img src="./images/power-right.png"
@@ -112,7 +117,7 @@
       </div>
 
       <div class="es-formula">
-        <p class="es-formula__title">
+        <p class="es-formula__title es-title">
           Formuła
           <span class="es-formula__title--bold">
             wzbogacona o
