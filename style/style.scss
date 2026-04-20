@@ -395,28 +395,142 @@ $white: #fff;
 
     &__images-left-group {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 5px;
+      left: 15px;
     }
 
     &__images-right-group {
       position: absolute;
-      bottom: 0;
-      right: 0;
+      bottom: 5px;
+      right: 5px;
     }
 
     &__images-left-title,
     &__images-right-title {
       color: $white;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    &__images-right-title {
+      text-align: right;
+    }
+
+    &__images-right-subtitle {
+      text-align: right;
+    }
+
+    &__images-left-line,
+    &__images-right-line {
+      max-width: 260px;
     }
 
     &__images-left-subtitle,
     &__images-right-subtitle {
       color: $white;
+      font-size: 11px;
+    }
+  }
+
+  .es-opinion {
+    padding-bottom: 25px;
+
+    &__left {
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+      padding-bottom: 25px;
+    }
+
+    &__left-image {
+      max-width: 30%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    &__left-title {
+      font-size: 30px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    &__left-subtitle {
+      margin-bottom: 10px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    &__left-image-logo {
+      max-width: 70%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    &__disclaimer {
+      font-size: 8px;
+    }
+  }
+
+  .es-cross {
+    &__title {
+      margin-bottom: 10px;
+
+      &--bold {
+        font-weight: 700;
+      }
+    }
+
+    &__day {
+      margin-bottom: 45px;
+    }
+
+    &__day-title,
+    &__night-title {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &__day-item-single,
+    &__night-item-single {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    &__day-item-single-title,
+    &__night-item-single-title {
+      margin-bottom: 20px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &__day-item-single-subtitle,
+    &__night-item-single-title {
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    &__link {
+      text-align: center;
+      width: 200px;
+      padding: 16px;
+      border-radius: 9px;
+      color: $white;
+      background: $black;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
     }
   }
 
   .es-footer {
+    margin-top: 70px;
+    border-top: 2px solid $black;
+
     &__img {
       max-width: 100%;
       display: block;
