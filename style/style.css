@@ -510,6 +510,13 @@
   #es-loreal.es-loreal .es-formula__container-images {
     display: flex;
   }
+  #es-loreal.es-loreal .es-power {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
 }
 @media screen and (min-width: 700px) {
   #es-loreal.es-loreal .es-formula__images-left-title, #es-loreal.es-loreal .es-formula__images-right-title {

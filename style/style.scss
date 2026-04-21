@@ -692,6 +692,19 @@ $white: #fff;
         display: flex;
       }
     }
+
+    .es-power {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      flex-direction: row;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      gap: 30px;
+    }
   }
 
   @media screen and (min-width: 700px) {
