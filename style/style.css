@@ -100,7 +100,7 @@
 }
 #es-loreal.es-loreal .es-kv__title-group {
   opacity: 0;
-  animation: slideright 0.8s ease forwards;
+  animation: es-slideright 0.8s ease forwards;
   animation-delay: 0.9s;
 }
 #es-loreal.es-loreal .es-kv__brand-title {
@@ -133,7 +133,7 @@
   font-weight: 700;
   text-transform: uppercase;
   opacity: 0;
-  animation: slideright 0.8s ease forwards;
+  animation: es-slideright 0.8s ease forwards;
   animation-delay: 0.9s;
 }
 #es-loreal.es-loreal .es-kv__left-inner {
@@ -179,7 +179,7 @@
 #es-loreal.es-loreal .es-kv__packshot {
   padding: 16px;
   opacity: 0;
-  animation: appear 0.8s ease forwards;
+  animation: es-appear 0.8s ease forwards;
   animation-delay: 0.9s;
 }
 #es-loreal.es-loreal .es-kv__wrapper {
@@ -191,11 +191,11 @@
 #es-loreal.es-loreal .es-kv__logo {
   margin-bottom: 20px;
   opacity: 0;
-  animation: slidedown 0.8s ease forwards;
+  animation: es-slidedown 0.8s ease forwards;
 }
 #es-loreal.es-loreal .es-kv__brand {
   opacity: 0;
-  animation: slidedown 0.8s ease forwards;
+  animation: es-slidedown 0.8s ease forwards;
   animation-delay: 0.3s;
 }
 #es-loreal.es-loreal .es-kv__brand-item {
@@ -246,7 +246,7 @@
   font-size: 20px;
   letter-spacing: -2px;
   opacity: 0;
-  animation: slidedown 0.8s ease forwards;
+  animation: es-slidedown 0.8s ease forwards;
   animation-delay: 0.6s;
 }
 #es-loreal.es-loreal .es-kv__text span {
@@ -903,7 +903,7 @@
     right: 6%;
   }
 }
-@keyframes slidedown {
+@keyframes es-slidedown {
   from {
     opacity: 0;
     transform: translateY(-32px);
@@ -913,7 +913,7 @@
     transform: translateY(0);
   }
 }
-@keyframes slideright {
+@keyframes es-slideright {
   from {
     opacity: 0;
     transform: translateX(-100px);
@@ -923,31 +923,11 @@
     transform: translateX(0);
   }
 }
-@keyframes appear {
+@keyframes es-appear {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
-  }
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg) translate(-50%, -50%);
-  }
-  10% {
-    transform: rotate(30deg) translate(-50%, -50%);
-  }
-  35% {
-    transform: rotate(-50deg) translate(-50%, -50%);
-  }
-  70% {
-    transform: rotate(90deg) translate(-50%, -50%);
-  }
-  85% {
-    transform: rotate(30deg) translate(-50%, -50%);
-  }
-  100% {
-    transform: rotate(0deg) translate(-50%, -50%);
   }
 }/*# sourceMappingURL=style.css.map */

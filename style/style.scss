@@ -147,8 +147,8 @@ $white: #fff;
 
     &__title-group {
       opacity: 0;
-      -webkit-animation: slideright 0.8s ease forwards;
-      animation: slideright 0.8s ease forwards;
+      -webkit-animation: es-slideright 0.8s ease forwards;
+      animation: es-slideright 0.8s ease forwards;
       -webkit-animation-delay: 0.9s;
       animation-delay: 0.9s;
     }
@@ -188,8 +188,8 @@ $white: #fff;
       font-weight: 700;
       text-transform: uppercase;
       opacity: 0;
-      -webkit-animation: slideright 0.8s ease forwards;
-      animation: slideright 0.8s ease forwards;
+      -webkit-animation: es-slideright 0.8s ease forwards;
+      animation: es-slideright 0.8s ease forwards;
       -webkit-animation-delay: 0.9s;
       animation-delay: 0.9s;
     }
@@ -244,8 +244,8 @@ $white: #fff;
     &__packshot {
       padding: 16px;
       opacity: 0;
-      -webkit-animation: appear 0.8s ease forwards;
-      animation: appear 0.8s ease forwards;
+      -webkit-animation: es-appear 0.8s ease forwards;
+      animation: es-appear 0.8s ease forwards;
       -webkit-animation-delay: 0.9s;
       animation-delay: 0.9s;
     }
@@ -260,14 +260,14 @@ $white: #fff;
     &__logo {
       margin-bottom: 20px;
       opacity: 0;
-      -webkit-animation: slidedown 0.8s ease forwards;
-      animation: slidedown 0.8s ease forwards;
+      -webkit-animation: es-slidedown 0.8s ease forwards;
+      animation: es-slidedown 0.8s ease forwards;
     }
 
     &__brand {
       opacity: 0;
-      -webkit-animation: slidedown 0.8s ease forwards;
-      animation: slidedown 0.8s ease forwards;
+      -webkit-animation: es-slidedown 0.8s ease forwards;
+      animation: es-slidedown 0.8s ease forwards;
       -webkit-animation-delay: 0.3s;
       animation-delay: 0.3s;
     }
@@ -332,8 +332,8 @@ $white: #fff;
       font-size: 20px;
       letter-spacing: -2px;
       opacity: 0;
-      -webkit-animation: slidedown 0.8s ease forwards;
-      animation: slidedown 0.8s ease forwards;
+      -webkit-animation: es-slidedown 0.8s ease forwards;
+      animation: es-slidedown 0.8s ease forwards;
       -webkit-animation-delay: 0.6s;
       animation-delay: 0.6s;
     }
@@ -1254,13 +1254,9 @@ $white: #fff;
       }
     }
   }
-
-
 }
 
-
-
-@-webkit-keyframes slidedown {
+@-webkit-keyframes es-slidedown {
   from {
     opacity: 0;
     -webkit-transform: translateY(-32px);
@@ -1274,7 +1270,7 @@ $white: #fff;
   }
 }
 
-@keyframes slidedown {
+@keyframes es-slidedown {
   from {
     opacity: 0;
     -webkit-transform: translateY(-32px);
@@ -1288,7 +1284,7 @@ $white: #fff;
   }
 }
 
-@-webkit-keyframes slideright {
+@-webkit-keyframes es-slideright {
   from {
     opacity: 0;
     -webkit-transform: translateX(-100px);
@@ -1302,7 +1298,7 @@ $white: #fff;
   }
 }
 
-@keyframes slideright {
+@keyframes es-slideright {
   from {
     opacity: 0;
     -webkit-transform: translateX(-100px);
@@ -1316,7 +1312,7 @@ $white: #fff;
   }
 }
 
-@-webkit-keyframes appear {
+@-webkit-keyframes es-appear {
   from {
     opacity: 0;
   }
@@ -1326,76 +1322,12 @@ $white: #fff;
   }
 }
 
-@keyframes appear {
+@keyframes es-appear {
   from {
     opacity: 0;
   }
 
   to {
     opacity: 1;
-  }
-}
-
-@-webkit-keyframes rotate {
-  0% {
-    -webkit-transform: rotate(0deg) translate(-50%, -50%);
-    transform: rotate(0deg) translate(-50%, -50%);
-  }
-
-  10% {
-    -webkit-transform: rotate(30deg) translate(-50%, -50%);
-    transform: rotate(30deg) translate(-50%, -50%);
-  }
-
-  35% {
-    -webkit-transform: rotate(-50deg) translate(-50%, -50%);
-    transform: rotate(-50deg) translate(-50%, -50%);
-  }
-
-  70% {
-    -webkit-transform: rotate(90deg) translate(-50%, -50%);
-    transform: rotate(90deg) translate(-50%, -50%);
-  }
-
-  85% {
-    -webkit-transform: rotate(30deg) translate(-50%, -50%);
-    transform: rotate(30deg) translate(-50%, -50%);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg) translate(-50%, -50%);
-    transform: rotate(0deg) translate(-50%, -50%);
-  }
-}
-
-@keyframes rotate {
-  0% {
-    -webkit-transform: rotate(0deg) translate(-50%, -50%);
-    transform: rotate(0deg) translate(-50%, -50%);
-  }
-
-  10% {
-    -webkit-transform: rotate(30deg) translate(-50%, -50%);
-    transform: rotate(30deg) translate(-50%, -50%);
-  }
-
-  35% {
-    -webkit-transform: rotate(-50deg) translate(-50%, -50%);
-    transform: rotate(-50deg) translate(-50%, -50%);
-  }
-
-  70% {
-    -webkit-transform: rotate(90deg) translate(-50%, -50%);
-    transform: rotate(90deg) translate(-50%, -50%);
-  }
-
-  85% {
-    -webkit-transform: rotate(30deg) translate(-50%, -50%);
-    transform: rotate(30deg) translate(-50%, -50%);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg) translate(-50%, -50%);
-    transform: rotate(0deg) translate(-50%, -50%);
   }
 }
